@@ -175,7 +175,7 @@ width: 100%;
 
 .content-1 .col-1-content
 {
-    width:72%;
+    width:68%;
     padding: 0% 3% 0% 3%;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -183,7 +183,7 @@ width: 100%;
 .content-1 .col-2-content
 {
     outline: 1px solid;
-   width: 25%;
+   width: 28%;
 }
 .col-1-content .content
 {
@@ -248,4 +248,30 @@ span.fa.fa-star {
     margin: 0;
     margin-bottom: 3%;
 }
+.col-2-content
+{
+    background-color: #F2F2F2;
+}
+
+.img-card img {
+    width: 70%;
+    object-fit: cover; 
+    height: 7vw;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    padding: 0;
+    margin: 80px 20px 0px 20px;
+}
+
+.img-card {
+    display: flex;
+    justify-content: center;
+}
+
 /* end section content */
