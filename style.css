@@ -294,3 +294,136 @@ span.fa.fa-star {
     font-size: 13px;
 }
 /* end section content */
+
+/* activities in marseille section -----------------------------------------------------------------------*/
+
+
+.section-content img {width: 100%;}
+
+.section-col-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+section.activities-in-marseille {
+    margin: 51px 0px;
+}
+
+section.activities-in-marseille h2 {
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.card h3
+{
+    margin: 10px 0px;
+    padding-left: 30px;
+    font-size: 19px;
+}
+
+h3#heigth {
+    margin: 15px 0px;
+}
+/*----------------------------------------------*/
+.card {
+    width: 25%;
+    margin: 20px;
+}
+
+.card.card-1 img {
+    width: 100%;
+    height: 30vw;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+.card.card-1 {
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 19%);
+    border-radius: 25px;
+}
+
+/*-------------------------------------------------------------------*/
+.card.card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-row-1 img {
+    width: 100%;
+    height: 15vw;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.card-row-1 {
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 19%);
+    border-radius: 25px;
+}
+
+
+
+.card-row-2 img {
+    height: 9vw;
+    width: 100%;
+    border-radius:25px 25px 0px 0px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card-row-2 {
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 19%);
+    border-radius: 25px;
+}
+/******************************cart 3***************************************/
+.card.card-3 img {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.card.card-3 {
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 19%);
+    border-radius: 25px;
+}
+
+/************************************cart-4**********************************/
+.card.card-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-row-3 img {
+    height: 12vw;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card-row-3 {
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 19%);
+    border-radius: 25px;
+}
+
+.card.card-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-row-4 {
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 19%);
+    border-radius: 25px;
+}
+
+.card-row-4 img {
+    width: 100%;
+    height: 12vw;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+/*end of activities in marseille section -----------------------------------------------------------------------*/
