@@ -23,14 +23,13 @@ body
     width: 40%;
 }
 
-ul
 {
     display: flex;
     justify-content:flex-end;
     align-items: center;
     text-decoration: none;
 }
-ul li
+.nav-menu ul li
 {
     
     text-decoration: none;
@@ -422,3 +421,31 @@ h3#heigth {
     object-fit: cover;
 }
 /*end of activities in marseille section -----------------------------------------------------------------------*/
+
+
+
+/*************************************************  footer section   **********************************************/
+
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: flex-start;
+}
+
+.content-footer h3 {
+    padding: 0;
+    margin: 7px 0px;
+    font-size: 20px;
+}
+
+.content-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-footer li {padding: 7px 0px;font-weight: 500;font-size: 16px;}
+
+
+/************************************************* end footer section   **********************************************/
