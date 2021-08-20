@@ -23,17 +23,15 @@ body
     width: 40%;
 }
 .col-1-header
-{
-    outline: 0px solid ;
-}
-ul
+
+.nav-menu ul
 {
     display: flex;
     justify-content:flex-end;
     align-items: center;
     text-decoration: none;
 }
-ul li
+.nav-menu ul li
 {
     
     text-decoration: none;
@@ -182,8 +180,8 @@ width: 100%;
 }
 .content-1 .col-2-content
 {
-    outline: 1px solid;
    width: 28%;
+   border-radius: 25px;
 }
 .col-1-content .content
 {
@@ -253,46 +251,45 @@ span.fa.fa-star {
     background-color: #F2F2F2;
 }
 
-.content.content-sidebar {
-    display: flex;
-    flex-direction: column;
-    margin: 0% 10% 0% 10%;
-}
-
-.img-1.img-sidebar {
-    display: flex;
-    width: 100%;
+.side-head i.fas.fa-chart-line {
+    font-size: 25px;
 }
 
 
 .card-sidebar img {
-    width: 63%;
-    height: 8vw;
+    width: 40%;
+    height: 9vw;
     object-fit: cover;
-    border-radius: 7% 0% 0% 7%;
+    border-radius: 25px 0% 0% 25px;
 }
 
-.text-img .sidebar-text{
+.gfd p {
+    padding-bottom: 22px;
+}
+.side-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.sidebar-card.cardsb-1 {
+    display: flex;
+    justify-content: end;
+    background: white;
+    margin: 0px 35px;
+    border-radius: 25px;
+    padding: 6px;
+}
+.text-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-left: -28px;
+    justify-content: start;
+}
+.dfg {
+    margin-top: 35px!important;
 }
 
-.text-img.sidebar-text {
-    display: flex;
-    flex-direction: column;
-    /* margin-left: -60px; */
-    justify-content: space-around;
-}
-
-.text-img.sidebar-text h3 {
-    font-size: 14px;
-}
-
-.text-img.sidebar-text p {
-    font-size: 13px;
-}
 /* end section content */
 
 /* activities in marseille section -----------------------------------------------------------------------*/
@@ -427,3 +424,32 @@ h3#heigth {
     object-fit: cover;
 }
 /*end of activities in marseille section -----------------------------------------------------------------------*/
+/*end of activities in marseille section -----------------------------------------------------------------------*/
+
+
+
+/*************************************************  footer section   **********************************************/
+
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: flex-start;
+}
+
+.content-footer h3 {
+    padding: 0;
+    margin: 7px 0px;
+    font-size: 20px;
+}
+
+.content-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-footer li {padding: 7px 0px;font-weight: 500;font-size: 16px;}
+
+
+/************************************************* end footer section   **********************************************/ 
