@@ -260,6 +260,7 @@ span.fa.fa-star {
     width: 40%;
     height: 9vw;
     object-fit: cover;
+    margin-right: 30px;
     border-radius: 25px 0% 0% 25px;
 }
 
