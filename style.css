@@ -22,10 +22,7 @@ body
 {
     width: 40%;
 }
-.col-1-header
-{
-    outline: 0px solid ;
-}
+
 ul
 {
     display: flex;
@@ -182,7 +179,7 @@ width: 100%;
 }
 .content-1 .col-2-content
 {
-    outline: 1px solid;
+    border-radius: 25px;
    width: 28%;
 }
 .col-1-content .content
@@ -253,45 +250,43 @@ span.fa.fa-star {
     background-color: #F2F2F2;
 }
 
-.content.content-sidebar {
-    display: flex;
-    flex-direction: column;
-    margin: 0% 10% 0% 10%;
+.side-head i.fas.fa-chart-line {
+    font-size: 25px;
 }
-
-.img-1.img-sidebar {
-    display: flex;
-    width: 100%;
-}
-
 
 .card-sidebar img {
-    width: 63%;
-    height: 8vw;
+    width:40%;
+    height: 9vw;
     object-fit: cover;
-    border-radius: 7% 0% 0% 7%;
+    border-radius: 25px 0% 0% 25px;
+    margin-right: 50px;
+}
+.gfd p {
+    padding-bottom: 22px;
+}
+.side-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 40px;
 }
 
-.text-img .sidebar-text{
+.sidebar-card.cardsb-1 {
+    display: flex;
+    justify-content: end;
+    background: white;
+    margin: 0px 35px;
+    border-radius: 25px;
+    padding: 6px;
+}
+
+.text-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-left: -28px;
+    justify-content: start;
 }
-
-.text-img.sidebar-text {
-    display: flex;
-    flex-direction: column;
-    /* margin-left: -60px; */
-    justify-content: space-around;
-}
-
-.text-img.sidebar-text h3 {
-    font-size: 14px;
-}
-
-.text-img.sidebar-text p {
-    font-size: 13px;
+.dfg {
+    margin-top: 35px!important;
 }
 /* end section content */
 
