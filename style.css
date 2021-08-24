@@ -4,6 +4,10 @@
     padding: 0;
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -778,9 +782,8 @@ h3#heigth {
     .search-container{
         display: none;
     }
-    .mobile-search {
-        
-    }
+     
+
     .mobile-search i.fas.fa-map-marker-alt {
         padding: 12px;
         background-color: #F2F2F2;
