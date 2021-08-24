@@ -115,7 +115,7 @@ width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 67%;
     margin-top: 1%;
 }
 .row-2 h2{
@@ -466,7 +466,12 @@ h3#heigth {
     margin: 0;
     padding: 0;
 }
-
+.lfpr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91%;
+}
 .content-footer li {padding: 7px 0px;font-weight: 500;font-size: 16px;}
 
 
@@ -543,6 +548,10 @@ h3#heigth {
     
 }
 @media only screen and (max-width:863px) {
+    .row-2 {
+        margin: 20px 0px;
+    }
+
     .content-1 {
        display:flex;
        flex-direction: column;  
@@ -573,31 +582,186 @@ h3#heigth {
          margin: 20px; 
     }
 
-    /* .section-col-1 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    } */
-    /* .card.card-2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    margin: 30px 0px;
-    } 
-    .card-row-1 img {
-        height: 20vw;
-    }
-    .card-row-1 {
-        max-width: 50%;
-    }
-    .card-row-2 {
-        max-width: 50%;
-    }
-    .card-row-1 img {
-        height: 50vw;
-    } */
    
 } 
+
+@media only screen and (max-width:768px) {
+   
+    .mobile-logo img {
+        width: 60%;
+    }
+     section.header{
+        display: none;
+    } 
+    .mobile-align {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px 30px;
+    }
+    .xx {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    body {
+        font-family: 'Raleway', sans-serif;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .accommodation {
+        width: 50%;
+        border-bottom: 4px solid #0065FC;
+        text-align: center;
+        padding-bottom: 20px;
+        color: #0065FC;
+    }
+
+    .Activities {
+
+        width: 50%;
+        border-bottom: 4px solid #F2F2F2;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .mobile-logo {
+        width: 50%;
+    }
+    .mobile-sm {
+        width: 50%;
+        list-style-type: none;
+    }
+    .mobile-sm ul li {
+        list-style-type: none;
+    }
+    section.under-header {
+        margin: 0px 25px;
+    }
+    .txt-1 h2 {
+        font-size: 25px;
+    }
+    .row-2 {
+        display: grid;
+        
+    } 
+    .lfpr {
+        display: flex;
+        flex-direction: column;
+        padding: 11px 0px;
+    }
+
+    .content-1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sidebar-card.cardsb-1 {
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+    }
+    .card-sidebar img {
+        width: 35%;
+        height: 25vw;
+        object-fit: cover;
+        margin-right: 20px;
+        border-radius: 25px 0% 0% 25px;
+    }
+    .text-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .bar {
+        flex-direction: column;
+    }
+    .bar .content-sidebar {
+        width: 100%;
+    }
+    .text-card h3 {
+        text-align: left;
+    }
+    .content-sidebar p {
+        text-align: left;
+    }
+    .rating-start {
+        text-align: left;
+    }
+    .content-1 .col-2-content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 0px;
+    }
+    .col-1-content .content {
+        flex-direction: column;
+        margin: 20px;
+    }
+    .img-1 {
+        width: 100%;
+    }
+    .content img {
+        height: 30vw;
+    }
+    .text-img h3 {
+        text-align: left;
+    }
+    .text-img p {
+        text-align: left;
+    }
+    .content-1 .col-1-content {
+        background-color: white;
+    }
+    .section-col-1 {
+        flex-direction: column;
+    }
+    .card {
+        margin: 15px 0px;
+    }
+    .section-content {
+        margin: 20px;
+    }
+    section.activities-in-marseille {
+        margin: 51px 13px;
+    }
+    h3#most-popular {
+        margin: 20px;
+    }
+    section.activities-in-marseille h2 {
+        padding: 0px 4px;
+    }
+    .col-1-content h2 {
+        margin: 35px 20px;
+    }
+    .card-row-1 {
+        margin-bottom: 30px;
+    }
+    .card-row-1 img {
+        height: 30vw;
+    }
+    .card-row-2 img {
+        height: 30vw;
+        object-position: top;
+    }
+} 
+
+
+
+
+
+
+
+@media only screen and (min-width:670px) {
+   
+    section.mobile {
+        display: none;
+    }
+} 
+
+
 /*************************************responsiveness section *********************************************************/
 
 
