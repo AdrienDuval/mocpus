@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -474,7 +475,7 @@ h3#heigth {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 91%;
+    width: 100%;
 }
 .content-footer li {padding: 7px 0px;font-weight: 500;font-size: 16px;}
 
@@ -658,6 +659,7 @@ h3#heigth {
         display: flex;
         flex-direction: column;
         padding: 11px 0px;
+        align-items: flex-start;
     }
 
     .content-1 {
@@ -803,6 +805,9 @@ h3#heigth {
         border: none;
         border-radius: 0px 10px 10px 0px;
     }
+    .fil {
+        margin: 9px 0px;
+    }
 } 
 
 
@@ -819,6 +824,13 @@ h3#heigth {
         display: none;
     }
 } 
+img {
+    transition: transform .2s;
+}
+ img:hover
+ {
+    transform: scale(0.9); 
+ }
 
 
 /*************************************responsiveness section *********************************************************/
