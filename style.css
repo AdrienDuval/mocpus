@@ -808,6 +808,9 @@ h3#heigth {
     .fil {
         margin: 9px 0px;
     }
+    form {
+        display: flex;
+    }
 } 
 
 
