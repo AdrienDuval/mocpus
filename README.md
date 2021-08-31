@@ -7,4 +7,4 @@ second open classroom project
 i have made new changes on the master branch
 
 # link to my project 2
-https://bluepalmsoftwash.com/gutter-cleaning/
+https://adrienduval.github.io/mocpus/ 
