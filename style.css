@@ -294,7 +294,7 @@ span.fa.fa-star {
     } */
 .sidebar-card.cardsb-1 {
     display: flex;
-    justify-content: end;
+    /* justify-content: end; */
     background: white;
     margin: 0px 35px;
     border-radius: 25px;
@@ -668,7 +668,7 @@ h3#heigth {
     }
     .sidebar-card.cardsb-1 {
         display: flex;
-        justify-content: end;
+        /* justify-content: end; */
         flex-direction: row;
     }
     .card-sidebar img {
